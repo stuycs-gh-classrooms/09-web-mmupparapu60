@@ -1,11 +1,11 @@
 * {
   text-align: center
-  /*border: solid
-   font-family: "Times"*/
+  border: solid
+  font-family: "Times"
 }
 body {
   background-color: purple
-  /*font-size: 15px*/
+  font-size: 15px
 }
 
 img {
@@ -13,5 +13,5 @@ img {
 }
 h1 {
   color: white
-  /*font-weight: bold*/
+  font-weight: bold
 }
