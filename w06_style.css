@@ -1,17 +1,17 @@
 * {
-  text-align: center
-  border: solid
-  font-family: "Times"
+  text-align: center;
+  border: solid;
+  font-family: "Times";
 }
 body {
-  background-color: purple
-  font-size: 15px
+  background-color: purple;
+  font-size: 15px;
 }
 
 img {
-  width="500" height="200"
+  width="500" height="200";
 }
 h1 {
-  color: white
-  font-weight: bold
+  color: white;
+  font-weight: bold;
 }
