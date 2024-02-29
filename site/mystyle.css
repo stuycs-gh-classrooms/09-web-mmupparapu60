@@ -1,0 +1,31 @@
+html{
+  font-size: 25px;
+  background-color: MidnightBlue;
+  color: white;
+  text-align: center;
+}
+
+a {
+  color: #87CEFA;
+  background-color: MediumSlateBlue;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+h2 {
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+
+li {
+  display: inline;
+  font-size: 30px;
+}
+.open {
+  color: black;
+}
+
+.info{
+  background-color: MidnightBlue;
+  color: #1E90FF
+}
