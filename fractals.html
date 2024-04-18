@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Fractals</title>
+  </head>
+  <body>
+  <heading> Koch Curve </heading>
+    <img src="Snowflake.png">
+    <p>
+      Modifications:
+      <li>
+        <ol>Every line that is made when depth is not one, color is randomized for that line.</ol>
+      <pre><code>
+        def draw_koch(t, depth, length):
+          t.pd()
+          t.width(5)
+          if depth == 1:
+            t.fd(length)
+            t.color("black")
+          if depth > 1:
+            t.pencolor((randint(0, 255), randint(0, 255), randint(0, 255)))
+            draw_koch(t, depth - 1, length)
+            t.lt(60)
+            draw_koch(t, depth - 1, length)
+            t.rt(120)
+            draw_koch(t, depth - 1, length)
+            t.lt(60)
+            draw_koch(t, depth - 1, length)
+            t.rt(120)
+      </code></pre>
+
+    </p>
+  </body>
+
+</html>
