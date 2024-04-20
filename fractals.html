@@ -8,13 +8,14 @@
   </head>
   <body>
   <heading> Koch Curve </heading>
-    <img src="Snowflake.png">
+    <img src="OgKochCurve.png">
     <p>
       Modifications:
       <ol>
         <li>Every line that is made when depth is not one, color is randomized for that line.</li>
         <li>Made one extra right turn of 120 degrees at the end of the recursive code.</li>
       </ol>
+    <img src="Snowflake.png">
       <pre><code>
         def draw_koch(t, depth, length):
           t.pd()
@@ -37,13 +38,14 @@
     </p>
 
       <heading> Sierpinski Triangle </heading>
-    <img src="sierpinski.png">
+    <img src="OgSierpinski.png">
     <p>
       Modifications:
       <ol>
         <li>Length for all lines is length instead of length/2.</li>
         <li>The last angle is randomized to be either 60, 120, or 180.</li>
       </ol>
+    <img src="sierpinski.png">
       <pre><code>
         def draw_sierpinski (t, depth, length):
             t.pd()
@@ -74,13 +76,14 @@
     </p>
     
     <heading> Tree </heading>
-    <img src="tree.png">
+    <img src="OgTree.png">
     <p>
       Modifications:
       <ol>
         <li>Deleted the last line of code that wwent backwards by length.</li>
         <li>Decreased the width of the branches as the tree forms.</li>
       </ol>
+     <img src="tree.png">
       <pre><code>
         def tree (t, depth, length, angle, width):
             t.pd()
