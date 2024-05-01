@@ -2,6 +2,10 @@ html {
   text-align: center;
   font-family: "Times";
 }
+heading {
+  font-weight: bold;
+  font-size: 100px;
+}
 body {
   background-color: skyblue;
   font-size: 20px;
@@ -24,7 +28,3 @@ body {
 li {
   width: fit-content;
   margin-inline: auto;
-heading {
-  font-weight: bold;
-  font-size: 100px;
-}
