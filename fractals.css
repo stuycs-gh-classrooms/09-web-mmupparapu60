@@ -24,7 +24,7 @@ body {
 li {
   width: fit-content;
   margin-inline: auto;
-h1 {
+heading {
   font-weight: bold;
   font-size: 100px;
 }
