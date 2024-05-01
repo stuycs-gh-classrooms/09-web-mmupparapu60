@@ -21,7 +21,9 @@ body {
   width: 500px;
   height: 400px;
 }
-
+li {
+  width: fit-content;
+  margin-inline: auto;
 h1 {
   font-weight: bold;
 }
